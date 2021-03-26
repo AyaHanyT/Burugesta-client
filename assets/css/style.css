@@ -1467,7 +1467,7 @@ border-radius: 15px;
 padding: 10px;
 }
 .modal#log-in .modal-body,.modal#sign-up .modal-body{
-  margin: 2rem
+  margin: 2rem 1rem;
   }
 form a.sign-in {
   margin          : 0 auto;
