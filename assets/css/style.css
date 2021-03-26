@@ -1393,6 +1393,11 @@ article button.wishlist {
   margin          : 1rem auto;
   border-radius   : 15px;
 }
+@media (max-width:576px){
+.form-container{
+Width:90%;
+} 
+}
 
 .form-container form input,
 .form-container form textarea {
