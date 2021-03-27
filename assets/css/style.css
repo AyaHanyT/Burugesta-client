@@ -1325,3 +1325,43 @@ color: #FE9807;
   padding: 10px;
 border: none;
 }
+.modal#log-in .modal-content, .modal#sign-up .modal-content{
+  padding: 2rem;
+  text-align: center;
+}
+.modal#log-in .modal-content h4, .modal#sign-up .modal-content h4{
+  margin: 1rem 1em 2rem
+}
+.modal#log-in .modal-content form input, .modal#sign-up  .modal-content form input{
+display: flex;
+margin: 0 auto;
+border-radius: 15px;
+padding: 10px;
+}
+.modal#log-in .modal-body,.modal#sign-up .modal-body{
+  margin: 2rem
+  }
+form a.sign-in {
+  margin          : 0 auto;
+  border-radius   : 20px;
+  background-color: #fe9707be;
+  padding         : 0.7rem 1rem;
+  border          : none;
+  cursor: pointer;
+color: white;
+width: 40%;
+}
+.modal strong{
+  display: inline-block;
+  margin: 0 4%;
+}
+.modal a.sign-up {
+  margin          : 0 auto;
+  border-radius   : 20px;
+ border: 1px solid #fe9707be;
+  padding         : 0.7rem 2rem;
+  cursor: pointer;
+color:#fe9707be ;
+background-color: white;
+width: 40%;
+}
