@@ -1365,3 +1365,20 @@ color:#fe9707be ;
 background-color: white;
 width: 40%;
 }
+
+#quantity-plus,
+#quantity-minus {
+  background-color: white;
+  color           : #FE9807;
+  border          : none;
+  box-shadow      : 1px 0px 3px 1px #71686829;
+  margin          : 1rem;
+  padding         : 0.2rem 0.7rem;
+  cursor          : pointer;
+}
+
+.quantity {
+  width     : 30px;
+  border    : none;
+  text-align: center;
+}
