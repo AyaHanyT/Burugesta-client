@@ -711,7 +711,7 @@ hr#done-2:not([size]) {
   background-size: cover;
   position       : relative;
   padding        : 120px 0 0 0;
-  height         : 77rem;
+  min-height       : 77rem;
 }
 
 #cart-section h1 {
