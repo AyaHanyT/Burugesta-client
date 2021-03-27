@@ -228,10 +228,10 @@
 
 
   function increment() {
-    document.getElementById('quantity-1').stepUp();
+    document.getElementById('quantity-1').value.stepUp();
   }
   function decrement() {
-    document.getElementById('quantity-1').stepDown();
+    document.getElementById('quantity-1').value.stepDown();
   }
  })()
 
