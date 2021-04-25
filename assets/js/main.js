@@ -186,7 +186,6 @@
     $("#frise-menu").hide();
     $("#appetizer-menu").hide();
     $("#drinks-menu").hide();
-
   });
 
 
