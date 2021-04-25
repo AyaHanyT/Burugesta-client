@@ -1323,8 +1323,25 @@ color: #FE9807;
   -o-border-radius: 30px;
 }
 .footer .social-media a:hover{
-  padding: 10px;
 border: none;
+}
+.map{
+float: left;
+}
+iframe{
+  margin: 0.3rem;
+  border-radius: 5px;
+}
+@media (max-width:768px){
+  iframe{
+    width: 140px;
+    height: 140px;
+  }
+}
+@media (max-width:541px){
+  .map{
+    margin-left: 0;
+  }
 }
 .modal#log-in .modal-content, .modal#sign-up .modal-content{
   padding: 2rem;
